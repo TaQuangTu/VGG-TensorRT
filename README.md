@@ -13,3 +13,4 @@ cmake
 make
 ./vgg
 ```
+Some error could appear when run this project (maybe cause by lacking some libraries). I think it should easy to be fixed by install the libraries.
