@@ -13,5 +13,5 @@ include_directories(/usr/local/cuda/lib64 include)
 include_directories(/usr/include/x86_64-linux-gnu)
 #src files
 file(GLOB src "src/*.cpp")
-add_executable(LearnCUDA3 main.cpp ${src})
-target_link_libraries(LearnCUDA3 ${LIBS})
+add_executable(vgg main.cpp ${src})
+target_link_libraries(vgg ${LIBS})
