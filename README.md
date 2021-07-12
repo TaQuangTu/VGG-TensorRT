@@ -6,11 +6,11 @@ A small project to demonstrate how to use TensorRT to reconstruct a deep learnin
 - Use this repo to generate weight of VGG model https://github.com/wang-xinyu/pytorchx/tree/master/vgg
 - In the root of this project, create a folder named `Weights`. Then, put the generated weight file to the folder.
 - Install [Cmake](https://cmake.org/install/).
-- After those steps. Try to run the C++ file (main.cpp):
+- After those steps. Build and run the C++ file (main.cpp) by following commands:
 
 ```
 cmake
 make
 ./vgg
 ```
-Some error could appear when run this project (maybe cause by lacking some libraries). I think it should easy to be fixed by install the libraries.
+Some error could appear when run this project (maybe cause by lacking some libraries). I think it should be easy to fix by installing the libraries.
